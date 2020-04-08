@@ -17,7 +17,7 @@ public class WriteDataToExcel {
         XSSFWorkbook workbook = new XSSFWorkbook();
 
         //Create a blank sheet
-        XSSFSheet spreadsheet = workbook.createSheet( " Employee Info ");
+        XSSFSheet spreadsheet = workbook.createSheet( " table Info ");
 
         //Create row object
         XSSFRow row;
